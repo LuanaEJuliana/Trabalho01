@@ -43,20 +43,46 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     [Grupo01]: Mathues Lopes e Estêvão Segatto
     [Grupo02]: Kelvin Lehrback e Vinicius Martins
 
-####5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
+####5.2 DECISÕES DE PROJETO   
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
+    a) CPF: em nosso projeto optamos por um campo chave, pois cada usário possui um número diferente.<br>
+    b) Nome: em nosso projeto optamos por um campo comum, exceto na tabela usuário que é um campo multivalorado pois o usuái pode ter nome completo, artistíco e apelido.<br> 
+    C) Sexo: em nosso projeto optamos por um campo comum, pois pode haver o mesmo sexo para mais de um usuário.<br>
+    d) Login: em nosso projeto optamos por um campo comum, pois o campo código é de mais fácil filtragem.<br>
+    e) Senha: em nosso projeto optamos por um campo comum, pois pode haver a mesma senha pra mais de um login.<br>
+    f) Tipo de Usuário: em nosso projeto optamos por um campo comum, pois pode haver o mesmo tipo de usuário pra mais de um usuário.<br>
+    g) Código: em nosso projeto optamos por um campo chave, por ser único.<br>
+    h) Endereço: em nosso projeto optamos por um campo composto, pois o endereço é composto por vários atributos.<br>
+    i) Link Youtube: em nosso projeto optamos por um campo comum, pois foi preferível o campo código como chave. Pois o campo Link Youtube direciona apenas o caminho da música no Youtube.<br>
 
-####5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+
+####5.3 DESCRIÇÃO DOS DADOS     
+    USUÁRIO: Tabela que armazena as informações relativas aos usuários.<br>
+        CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+        Nome:campo que armazena o nome completo, nome artísitco e/ou apelido do usuário.<br>
+        Contato:campo que armazena os contatos e os tipos de contatos de cada usuário.<br>
+        Sexo:campo que armazena o sexo do usuário.<br>
+        Login:campo que armazena o login do usuário.<br>
+        Senha:campo que armazena a senha do usuário.<br>
+        Tipo de Usuário:campo que armazena o tipo do usuário.<br>
+        Código da Música:campo que armazena o código da música enviada pelo usuário.<br>
+        Endereço:campo que armazena as informações completa do endereço do usuário.<br>
+    MÚSICA: Tabela que armazena as informações relativas as músicas.<br>
+        Código da Música:campo que armazena o código da música.<br>
+        Nome da Música:campo que armazena o nome da música.<br>
+        Link Youtube:campo que armazena o link do Youtube.<br>
+    CANTOR:Tabela que armazena as informações relativas aos cantores.<br>
+        Código do Cantor:campo que armazena o código do cantor.<br>
+        Nome do Cantor:campo que armazena o nome do cantor.<br>
+    COMPOSITOR:Tabela que armazena as informações relativas aos compositores.<br>
+        Código do Compositor:campo que armazena o código do compositor.<br>
+        Nome do Compositor:campo que armazena o nome do compositor.<br>
+    GÊNERO:Tabela que armazena as informações relativas aos gêneros.<br>
+        Código do gênero:campo que armazena o código do gênero.<br>
+        Nome do Compositor:campo que armazena o nome do gênero.<br>
+
 
 
 ###6	MODELO LÓGICO<br>
