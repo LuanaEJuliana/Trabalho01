@@ -35,7 +35,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/conceitual%20imagem.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/conceitual%20imagem%203.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -86,6 +86,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ###6	MODELO LÓGICO<br>
+![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/l%C3%B3gico%202.jpg?raw=true "Modelo Lógico")
+
 ###7	MODELO FÍSICO<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
