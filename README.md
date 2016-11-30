@@ -238,20 +238,35 @@ select * from nome; <br>
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 select NomeCompleto, nomeArtistico, COD_Usuario, COD_Usuario_FK from usuario inner join nome on (usuario.COD_Usuario = nome.COD_Usuario_FK);
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select1.PNG)<br>
+
 select cod_tipo as "cod_tipo_FK" from contato ;
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select2.PNG)<br>
+
 select DescricaoContato, contato.COD_Tipo from contato inner join tipocontato on (contato.COD_Tipo = tipocontato.COD_Tipo);
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select3.PNG)<br>
+
 select Login, Titulo, musica.COD_Musica, usuario.COD_Usuario from favorita inner join usuario on(FAVORITA.COD_Usuario = usuario.COD_Usuario) inner join musica on(favorita.COD_Musica = musica.COD_Musica);
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select4.PNG)<br>
+
 select Login, dataDeEnvio, musica.COD_Musica, usuario.COD_Usuario from envia inner join usuario on(envia.COD_Usuario = usuario.COD_Usuario) inner join musica on(envia.COD_Musica = musica.COD_Musica);
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select5.PNG)<br>
+
 select Login, NomeDoGenero from usuario inner join genero on(usuario.COD_Genero = genero.COD_Genero); 
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select6.PNG)<br>
+
 select Titulo, genero.COD_Genero, musica.COD_Musica from pertence inner join genero on(pertence.COD_Genero = genero.COD_Genero) inner join musica on(pertence.COD_Musica = musica.COD_Musica);
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select7.PNG)<br>
+
 select Titulo, NomeCantor, gravacao, musica.COD_Musica, cantor.COD_cantor from interpretada inner join cantor on(cantor.COD_cantor = interpretada.COD_Cantor) inner join musica on(interpretada.COD_Musica = musica.COD_Musica);
+
 ![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select8.PNG)<br>
 
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
