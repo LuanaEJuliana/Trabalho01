@@ -459,8 +459,8 @@ select * from dados_dos_usuarios;<br>
 
 ###11	TRABALHO REDES SOCIAIS<br>
 
-[main](https://github.com/julianar2/Trabalho01/blob/master/redesocialMain)
-[codigo](https://github.com/julianar2/Trabalho01/blob/master/redesocialCodigo)
+[Busca Redes Sociais](https://github.com/LuanaEJuliana/Trabalho01/blob/master/TrabRedesSociais.txt)<br>
+[Conexao Banco de Dados](https://github.com/LuanaEJuliana/Trabalho01/blob/master/TrabRedesSociaisConexao.txt)<br>
 
 
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
