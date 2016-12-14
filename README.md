@@ -267,7 +267,7 @@ select Titulo, genero.COD_Genero, musica.COD_Musica from pertence inner join gen
 
 select Titulo, NomeCantor, gravacao, musica.COD_Musica, cantor.COD_cantor from interpretada inner join cantor on(cantor.COD_cantor = interpretada.COD_Cantor) inner join musica on(interpretada.COD_Musica = musica.COD_Musica);
 
-(https://github.com/LuanaEJuliana/Trabalho01/blob/master/select8.PNG)<br>
+[](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select8.PNG)<br>
 
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 
