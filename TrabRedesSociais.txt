@@ -1,0 +1,28 @@
+import tweepy
+
+import bancoDeDados as conct
+
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+
+buscar = ["Musicas Nacionais" or "MPB" or "musicas nacionais" or "musica brasileira" or "musicas brasileiras" or "mpb"]
+pesquisa = api.search(q=buscar)
+
+for musica in pesquisa:
+    nome = musica.user.screen_name
+    localizacao = musica.user.location
+    tweeti = musica.text
+    recebe = """insert into """+ conct.tabela +""" (nome, localizacao, tweet) values (%s,%s,%s);"""
+    dados = (nome,localizacao,tweeti)
+    criando = conct.conn.execute(recebe,dados)
+    PT = conct.conn.execute('select * from '+ conct.tabela + ';')
+    formt = conct.pandas.DataFrame(PT.fetchall())
+
+print(formt)

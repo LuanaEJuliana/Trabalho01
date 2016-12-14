@@ -1,0 +1,20 @@
+import pandas
+
+import MySQLdb
+
+import sqlalchemy
+
+from sqlalchemy import create_engine
+
+parametros_conexao = ""
+engine = create_engine(parametros_conexao)
+
+
+
+conn = engine.connect()
+
+
+
+tabela = 'MusicasBrasileiras'
+
+result = conn.execute('create table if not exists ' + tabela + '(nome varchar (255),localizacao varchar(255), tweet varchar(255));')
