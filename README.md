@@ -15,12 +15,12 @@ Música Brasileira é um sistema de dados online pelo qual será possível ter a
 Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. Uma música poderá ser escrita por um ou alguns compositores além de poder ser gravada por um ou vários cantores. Os usuários podem pesquisar compositores, cantores, músicas, gêneros e letras aos quais desejam ler, ouvir ou ser direcionados ao link da música escolhida no YouTube. Os usuários se cadastram no sistema e tem como atributo chave o cpf. Os usuários escolhem um gênero musical favorito/principal, podem marcar músicas como favoritas e podem enviar músicas para o sistema, alimentando o banco de dados. As músicas possuem compositores, cantores e gêneros. <br>
  
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Mockup - Música Brasileira - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
+[Mockup - Música Brasileira - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
 
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-Trab-BD.jpg)
+[Conceitual - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Conceitual-Trab-BD.jpg)
 
 ####5.1 Validação do Modelo Conceitual
    Grupo01 - EstÊvão Segatto e Mathues Lopes <br>
@@ -63,10 +63,10 @@ PAÍS: Tabela que armazena as informações relativas aos países. <br>
 
 
 ###6	MODELO LÓGICO<br>
-![Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-Trab-BD.jpg)<br>
+[Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-Trab-BD.jpg)<br>
 
 ###7	MODELO FÍSICO<br>
-![Física - Música Brasileira - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/Music.sql)<br>    
+[Física - Música Brasileira - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/Music.sql)<br>    
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
@@ -92,134 +92,134 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 
 /* Consulta de Dados presentes na Tabela Música */<br>
 select * from MUSICA;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/01%20-%20Musica.png)<br>
 
 /* Consulta de Dados presentes na Tabela Usuário */<br>
 select * from USUARIO;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Usuario.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/02%20-%20Usuario.png)<br>
 
 /* Consulta de Dados presentes na Tabela TipoDeUsuario */<br>
 select * from TipoDeUsuario;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/03%20-%20Tipo%20de%20Usuario.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/03%20-%20Tipo%20de%20Usuario.png)<br>
 
 /* Consulta de Dados presentes na Tabela Cantor */<br>
 select * from CANTOR;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Cantor.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/04%20-%20Cantor.png)<br>
 
 /* Consulta de Dados presentes na Tabela Compositor */<br>
 select * from COMPOSITOR;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Compositor.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/05%20-%20Compositor.png)<br>
 
 /* Consulta de Dados presentes na Tabela TipoContato */<br>
 select * from TipoContato;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20Contato.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/06%20-%20Tipo%20de%20Contato.png)<br>
 
 /* Consulta de Dados presentes na Tabela Contato */<br>
 select * from Contato;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/07%20-%20Contato.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/07%20-%20Contato.png)<br>
 
 /* Consulta de Dados presentes na Tabela Gênero */<br>
 select * from GENERO;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/08%20-%20Genero.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/08%20-%20Genero.png)<br>
 
 /* Consulta de Dados presentes na Tabela Estado */<br>
 select * from ESTADO;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/09%20-%20Estado.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/09%20-%20Estado.png)<br>
 
 /* Consulta de Dados presentes na Tabela País */<br>
 select * from PAIS;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/10%20-%20Pais.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/10%20-%20Pais.png)<br>
 
 /* Consulta de Dados presentes na Tabela CEP */<br>
 select * from CEP;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/11%20-%20Cep.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/11%20-%20Cep.png)<br>
 
 /* Consulta de Dados presentes na Tabela Bairro */<br>
 select * from BAIRRO;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/12%20-%20Bairro.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/12%20-%20Bairro.png)<br>
 
 /* Consulta de Dados presentes na Tabela Cidade */<br>
 select * from CIDADE;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/13%20-%20Cidade.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/13%20-%20Cidade.png)<br>
 
 /* Consulta de Dados presentes na Tabela Rua */<br>
 select * from Rua;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/14%20-%20Rua.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/14%20-%20Rua.png)<br>
 
 /* Consulta de Dados presentes na Tabela Endereço */<br>
 select * from ENDERECO;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/15%20-%20Endereco.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/15%20-%20Endereco.png)<br>
 
 /* Consulta de Dados presentes na Tabela Nome */<br>
 select * from Nome;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/16%20-%20Nome.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/16%20-%20Nome.png)<br>
 
 /* Consulta de Dados presentes na Tabela Favorita */<br>
 select * from FAVORITA;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/17%20-%20Favorita.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/17%20-%20Favorita.png)<br>
 
 /* Consulta de Dados presentes na Tabela Envia */<br>
 select * from ENVIA;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/18%20-%20Envia.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/18%20-%20Envia.png)<br>
 
 /* Consulta de Dados presentes na Tabela Possui */<br>
 select * from POSSUI;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/19%20-%20Possui.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/19%20-%20Possui.png)<br>
 
 /* Consulta de Dados presentes na Tabela Pertence */<br>
 select * from PERTENCE;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/20%20-%20Pertence.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/20%20-%20Pertence.png)<br>
 
 /* Consulta de Dados presentes na Tabela Interpretada */<br>
 select * from INTERPRETADA;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/21%20-%20Interpretada.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/21%20-%20Interpretada.png)<br>
 
 /* Consulta de Dados presentes na Tabela COMPOSTA */<br>
 select * from COMPOSTA;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/22%20-%20Composta.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/22%20-%20Composta.png)<br>
 
 /* Consulta de Dados presentes na Tabela Contem */<br>
 select * from CONTEM;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/23%20-%20Contem.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/23%20-%20Contem.png)<br>
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
 /*CONSULTAS DAS TABELAS COM FILTROS WHERE*/<br>
 select * from usuario where sexo = 'feminino';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%201.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%201.png)<br>
 select * from nome where apelido is not null;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%202.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%202.png)<br>
 select * from contato where descricaocontato = 'facebook'; <br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%203.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%203.png)<br>
 select * from contato where cod_tipo = 4;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%204.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%204.png)<br>
 select * from envia where cod_usuario = 2;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%205.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/24%20-%20Consulta%205.png)<br>
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
 /*CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS*/<br>
 select * from endereco where COD_pais = 2 and COD_estado = 7;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%201.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%201.png)<br>
 select * from interpretada where Gravacao > "01-02-2012";<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%202.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%202.png)<br>
 select * from endereco where cod_pais = 5 or COD_estado = 1;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%203.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%203.png)<br>
 select LinkYoutube from musica where Titulo ='Refém';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%204.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%204.png)<br>
 select CPF from usuario where COD_Genero = 1;<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%205.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/25%20-%20Consulta%205.png)<br>
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 /*CONSULTAS QUE USAM OPERADORES LIKE*/<br>
 select * from nome where nomecompleto like 'j%';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%201.png)<br>
 select * from nome where nomecompleto like '%amaro%';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%202.png)<br>
 select * from nome where nomecompleto like '%amaro%' and apelido = 'gringo';<br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%203.png)<br>
 select * from rua where cep like '29%';,br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/26%20-%20Consulta%204.png)<br>
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
@@ -230,44 +230,44 @@ update nome set NomeArtistico = 'Juliana Roque' where COD_Usuario_FK = 2;<br>
 update nome set NomeArtistico = 'Luiz Picolé' where COD_Usuario_FK = 3;<br>
 update nome set nomecompleto = 'Luiz Claudio Picolé' where COD_Usuario_FK = 3;<br>
 select * from nome; ,br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%201.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%201.png)<br>
 delete from nome where nome_pk = 1;<br>
 select * from nome; <br>
-![Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%202.png)<br>
+[Alt text](https://github.com/julianar2/Trabalho01/blob/master/27%20-%20Consulta%202.png)<br>
 
 
 ####9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 select NomeCompleto, nomeArtistico, COD_Usuario, COD_Usuario_FK from usuario inner join nome on (usuario.COD_Usuario = nome.COD_Usuario_FK);
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select1.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select1.PNG)<br>
 
 select cod_tipo as "cod_tipo_FK" from contato ;
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select2.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select2.PNG)<br>
 
 select DescricaoContato, contato.COD_Tipo from contato inner join tipocontato on (contato.COD_Tipo = tipocontato.COD_Tipo);
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select3.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select3.PNG)<br>
 
 select Login, Titulo, musica.COD_Musica, usuario.COD_Usuario from favorita inner join usuario on(FAVORITA.COD_Usuario = usuario.COD_Usuario) inner join musica on(favorita.COD_Musica = musica.COD_Musica);
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select4.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select4.PNG)<br>
 
 select Login, dataDeEnvio, musica.COD_Musica, usuario.COD_Usuario from envia inner join usuario on(envia.COD_Usuario = usuario.COD_Usuario) inner join musica on(envia.COD_Musica = musica.COD_Musica);
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select5.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select5.PNG)<br>
 
 select Login, NomeDoGenero from usuario inner join genero on(usuario.COD_Genero = genero.COD_Genero); 
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select6.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select6.PNG)<br>
 
 select Titulo, genero.COD_Genero, musica.COD_Musica from pertence inner join genero on(pertence.COD_Genero = genero.COD_Genero) inner join musica on(pertence.COD_Musica = musica.COD_Musica);
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select7.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select7.PNG)<br>
 
 select Titulo, NomeCantor, gravacao, musica.COD_Musica, cantor.COD_cantor from interpretada inner join cantor on(cantor.COD_cantor = interpretada.COD_Cantor) inner join musica on(interpretada.COD_Musica = musica.COD_Musica);
 
-![Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select8.PNG)<br>
+[Alt text](https://github.com/LuanaEJuliana/Trabalho01/blob/master/select8.PNG)<br>
 
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 
