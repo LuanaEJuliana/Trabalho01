@@ -4,6 +4,7 @@ Trabalho desenvolvido durante a disciplina de BD do Curso Técnico de Informáti
 #Sumário
 
 ###1	COMPONENTES<br>
+Luana Emiliano Ferreira<br>
 Juliana Rangel Roque<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
@@ -15,7 +16,7 @@ Música Brasileira é um sistema de dados online pelo qual será possível ter a
 Um usuário pode ter cadastro padrão, cantor, compositor ou de instrumentista. Uma música poderá ser escrita por um ou alguns compositores além de poder ser gravada por um ou vários cantores. Os usuários podem pesquisar compositores, cantores, músicas, gêneros e letras aos quais desejam ler, ouvir ou ser direcionados ao link da música escolhida no YouTube. Os usuários se cadastram no sistema e tem como atributo chave o cpf. Os usuários escolhem um gênero musical favorito/principal, podem marcar músicas como favoritas e podem enviar músicas para o sistema, alimentando o banco de dados. As músicas possuem compositores, cantores e gêneros. <br>
  
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Mockup - Música Brasileira - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
+![Mockup - Música Brasileira - Em PDF](https://github.com/julianar2/Trabalho01/blob/master/Mockup%20-%20MusicaBasileira.pdf)
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
@@ -154,10 +155,10 @@ DataDeEnvio: Campo que armazena quando a música foi envida. <br>
     DescricaoPais: Campo que armazena o país de cada endereço. <br>
 
 ###6	MODELO LÓGICO<br>
-![Lógico - Música Brasileira - Em JPG] (https://github.com/julianar2/Trabalho01/blob/master/Logico-OKAY.jpg)<br>
+![Lógico - Música Brasileira - Em JPG](https://github.com/julianar2/Trabalho01/blob/master/Logico-OKAY.jpg)<br>
 
 ###7	MODELO FÍSICO<br>
-![Física - Música Brasileira - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/Fisico%20-%20OKAY.sql)<br>    
+![Física - Música Brasileira - Em SQL](https://github.com/julianar2/Trabalho01/blob/master/Fisico%20-%20OKAY.sql)<br>    
         
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
@@ -171,15 +172,12 @@ As refeências utilizadas no desenvolvimento deste trabalho foram os materiais d
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD<br>
-![Criação de Tabelas - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/insercao%20A.sql)<br> 
+![Criação de Tabelas - Em SQL](https://github.com/julianar2/Trabalho01/blob/master/insercao%20A.sql)<br> 
 
 b) inclusão das instruções de inserção dos dados nas referidas tabelas <br>
-![Inserção de dados na Tabelas - Em SQL] (https://github.com/julianar2/Trabalho01/blob/master/insercao%20B.sql)<br>  
+![Inserção de dados na Tabelas - Em SQL](https://github.com/julianar2/Trabalho01/blob/master/insercao%20B.sql)<br>  
 
 c) inclusão das instruções para execução de outros procedimentos necessários <br>
-
-
-
         
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 <br>
@@ -442,7 +440,6 @@ select * from dados_gerais_usuarios;<br>
 create view dados_dos_usuarios as select login, cpf, sexo from usuario;<br>
 select * from dados_dos_usuarios;<br>
 
-
 ####9.10	SUBCONSULTAS (Mínimo 3) <br>
 **select * from musica where titulo in (select titulo from musica where titulo <> 'Refem');**<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%201.jpg)<br>
@@ -457,9 +454,8 @@ select * from dados_dos_usuarios;<br>
 ![Alt text](https://github.com/julianar2/Trabalho01/blob/master/34%20-%20Consulta%204.jpg)<br>
 <br>
 
-
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
-![Apresentação - Em PDF] (https://github.com/julianar2/Trabalho01/blob/master/Apresentacao%20BD.pdf)
+![Apresentação - Em PDF](https://github.com/julianar2/Trabalho01/blob/master/Apresentacao%20BD.pdf)
 
 ###11	TRABALHO REDES SOCIAIS<br>
 
